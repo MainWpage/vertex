@@ -49,7 +49,7 @@ section{padding:100px 0;background:var(--navy)}section:nth-child(even){backgroun
 
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.why-card{padding:25px 20px;border:1px solid var(--line);border-radius:8px;background:var(--navy3)}.why-card .num{font:800 12px Manrope;color:var(--cyan);letter-spacing:.1em}.why-card h3{font-size:17px;margin:17px 0 9px;color:#fff}.why-card p{font-size:13px;line-height:1.75;color:var(--muted);margin:0}
 
-.solutions{background:linear-gradient(120deg,#101010,#222222);color:#fff}.solutions .section-head p{color:#d0d0d0}.solution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.solution{display:flex;gap:14px;align-items:flex-start;padding:20px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.045);border-radius:7px}.solution .symbol{font-size:22px;color:#ff8a00}.solution h3{font-size:15px;margin:0 0 6px;color:#fff}.solution p{font-size:12px;line-height:1.6;color:#d0d0d0;margin:0}
+.solutions{background:linear-gradient(120deg,#101010,#222222);color:#fff}.solutions .section-head p{color:#d0d0d0}.solutions-feature{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:stretch;margin:34px 0 24px;padding:14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.035);border-radius:10px}.solutions-feature-copy{padding:34px 28px;display:flex;flex-direction:column;justify-content:center}.solutions-feature-copy h3{font-size:27px;line-height:1.2;margin:8px 0 14px;color:#fff}.solutions-feature-copy p{font-size:14px;line-height:1.8;color:#d0d0d0;margin:0 0 24px}.solutions-feature-copy .btn{align-self:flex-start}.solutions-feature-image{min-height:350px;overflow:hidden;border-radius:7px}.solutions-feature-image img{width:100%;height:100%;min-height:350px;display:block;object-fit:cover}.solution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.solution{display:flex;gap:14px;align-items:flex-start;padding:20px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.045);border-radius:7px}.solution-media{width:104px;height:104px;flex:0 0 104px;overflow:hidden;border-radius:7px;border:1px solid rgba(255,255,255,.12);background:#111}.solution-media img{width:100%;height:100%;display:block;object-fit:cover}.solution .symbol{font-size:22px;color:#ff8a00;margin-bottom:3px}.solution h3{font-size:15px;margin:0 0 6px;color:#fff}.solution p{font-size:12px;line-height:1.6;color:#d0d0d0;margin:0}
 
 .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.process{border-top:2px solid var(--cyan);padding-top:22px;position:relative}.process b{font:800 13px Manrope;color:var(--cyan)}.process h3{font-size:18px;margin:12px 0 8px;color:#fff}.process p{font-size:13px;line-height:1.7;color:var(--muted);margin:0}
 
@@ -61,8 +61,8 @@ footer{background:#050505;color:#c7c7c7;padding:55px 0 22px;border-top:1px solid
 
 
 
-@media(max-width:900px){.navlinks{gap:14px}.navlinks a{font-size:12px}.service-grid,.product-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:35px}.solution-grid{grid-template-columns:repeat(2,1fr)}.team-grid{flex-direction:column;align-items:center}}
-@media(max-width:700px){.container{width:min(100% - 32px,560px)}.topbar .container{justify-content:center;text-align:center}.topbar .container span:last-child{display:none}nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);padding:20px 24px 25px;flex-direction:column;align-items:stretch;border-top:1px solid var(--line)}.navlinks.open{display:flex}.navlinks a{padding:7px 0;font-size:14px}.nav-cta{display:none}.hero,.hero-content{min-height:620px}.hero-content{padding:70px 0 100px}.hero-copy>p{font-size:15px}.hero-note{margin-top:35px}.slide-arrows{display:none}section{padding:72px 0}.about-grid,.contact-grid{grid-template-columns:1fr;gap:38px}.about-visual{min-height:360px}.about-visual img{height:340px;width:92%}.about-card{width:190px;padding:20px}.about-copy h2,.contact-info h2{font-size:34px}.service-grid,.solution-grid,.product-grid{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr;row-gap:30px}.cta-panel{padding:35px 27px;align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-about{grid-column:1/-1}.trust-inner{justify-content:center}.trust-label{text-align:center;max-width:none}.industry-tags{justify-content:center}}
+@media(max-width:900px){.navlinks{gap:14px}.navlinks a{font-size:12px}.service-grid,.product-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:35px}.solutions-feature{grid-template-columns:1fr}.solution-grid{grid-template-columns:repeat(2,1fr)}.team-grid{flex-direction:column;align-items:center}}
+@media(max-width:700px){ .solution-media{width:86px;height:86px;flex-basis:86px} .container{width:min(100% - 32px,560px)}.topbar .container{justify-content:center;text-align:center}.topbar .container span:last-child{display:none}nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);padding:20px 24px 25px;flex-direction:column;align-items:stretch;border-top:1px solid var(--line)}.navlinks.open{display:flex}.navlinks a{padding:7px 0;font-size:14px}.nav-cta{display:none}.hero,.hero-content{min-height:620px}.hero-content{padding:70px 0 100px}.hero-copy>p{font-size:15px}.hero-note{margin-top:35px}.slide-arrows{display:none}section{padding:72px 0}.about-grid,.contact-grid{grid-template-columns:1fr;gap:38px}.solutions-feature{grid-template-columns:1fr;padding:8px}.solutions-feature-copy{padding:28px 20px}.solutions-feature-image{min-height:280px}.solutions-feature-image img{min-height:280px}.about-visual{min-height:360px}.about-visual img{height:340px;width:92%}.about-card{width:190px;padding:20px}.about-copy h2,.contact-info h2{font-size:34px}.service-grid,.solution-grid,.product-grid{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr;row-gap:30px}.cta-panel{padding:35px 27px;align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-about{grid-column:1/-1}.trust-inner{justify-content:center}.trust-label{text-align:center;max-width:none}.industry-tags{justify-content:center}}
 </style>
 </head>
 <body>
@@ -326,7 +326,43 @@ footer{background:#050505;color:#c7c7c7;padding:55px 0 22px;border-top:1px solid
 <section id="why"><div class="container"><div class="section-head"><div class="eyebrow">The Vertex IT Consulting approach</div><h2>More than a service provider.<br>A partner in progress.</h2><p>Good technology delivery is about understanding the environment and managing risk.</p></div>
 <div class="why-grid"><div class="why-card"><div class="num">01 / UNDERSTAND</div><h3>Listen before recommending</h3><p>We start with your business objectives, current environment, and constraints.</p></div><div class="why-card"><div class="num">02 / DESIGN</div><h3>Plan with purpose</h3><p>Recommendations are shaped around fit, security, and practical value.</p></div><div class="why-card"><div class="num">03 / DELIVER</div><h3>Execute with clarity</h3><p>Defined scope, milestones, communication, and documentation keep work on track.</p></div><div class="why-card"><div class="num">04 / IMPROVE</div><h3>Support what comes next</h3><p>We help identify next steps so your technology evolves with your organization.</p></div></div></div></section>
 
-<section class="solutions" id="solutions"><div class="container"><div class="section-head"><div class="eyebrow">Solutions & capabilities</div><h2>Specialized skills.<br>Practical business outcomes.</h2><p>Bring the right expertise together for your next IT initiative.</p></div></section>
+<section class="solutions" id="solutions">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Solutions & capabilities</div>
+      <h2>Specialized skills.<br>Practical business outcomes.</h2>
+      <p>Bring the right expertise together for your next IT initiative.</p>
+    </div>
+
+   
+    <div class="solution-grid">
+      <article class="solution">
+        <div class="solution-media"><img src="cybersecurity.png" alt="Cybersecurity and data privacy capabilities" loading="lazy" ></div>
+        <div><div class="symbol">◈</div><h3>Cybersecurity & Data Privacy</h3><p>Security assessment, risk management, privacy compliance, governance, awareness, and incident-response recommendations.</p></div>
+      </article>
+      <article class="solution">
+        <div class="solution-media"><img src="network-infrastructure.png" alt="Network and IT infrastructure capabilities" loading="lazy" ></div>
+        <div><div class="symbol">⌁</div><h3>Network & IT Infrastructure</h3><p>Network, LAN/WAN/Wi-Fi, server, firewall, VPN, remote-access, troubleshooting, and infrastructure optimization expertise.</p></div>
+      </article>
+      <article class="solution">
+        <div class="solution-media"><img src="database-systems.png" alt="Database and systems administration capabilities" loading="lazy" ></div>
+        <div><div class="symbol">▤</div><h3>Database & Systems Administration</h3><p>Database deployment, administration, performance optimization, replication, backup, recovery, security, and server/application management.</p></div>
+      </article>
+      <article class="solution">
+        <div class="solution-media"><img src="software-development.png" alt="Custom software development capabilities" loading="lazy" ></div>
+        <div><div class="symbol">&lt;/&gt;</div><h3>Custom Software Development</h3><p>Business management systems, web applications, accounting, inventory, warehousing, sales, billing, APIs, integrations, and workflow automation.</p></div>
+      </article>
+      <article class="solution">
+        <div class="solution-media"><img src="systems-integration.png" alt="IT consulting and systems integration capabilities" loading="lazy" ></div>
+        <div><div class="symbol">⚙</div><h3>IT Consulting & Systems Integration</h3><p>Technology planning, infrastructure assessment, requirements analysis, solution architecture, recommendations, implementation, and technical advisory.</p></div>
+      </article>
+      <article class="solution">
+        <div class="solution-media"><img src="managed-it-services.png" alt="Managed IT services and monitoring capabilities" loading="lazy" ></div>
+        <div><div class="symbol">◎</div><h3>Managed IT Services</h3><p>Remote and on-site support, preventive maintenance, network and server monitoring, troubleshooting, asset management, updates, and user assistance.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
 
 <section class="trusted-section" id="trusted">
   <div class="container">
